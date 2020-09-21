@@ -1,0 +1,452 @@
+body.login{
+  /* background: -webkit-linear-gradient(left, #0072ff, #00c6ff); */
+  
+	color: #fff;
+  /* background: linear-gradient(-45deg, #0072ff, #3de2c9, #0072ff, #fff); */
+ background:  linear-gradient(-45deg, #23a3e3, #3de2c9, #23a3e3,  #fff);
+	background-size: 400% 400%;
+	
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+body.login .header { background-color: white; }
+.top{
+ 
+  height: 190px;
+  width: 100%;
+}
+
+.logo img{
+  width: 100%;
+  
+}
+
+.second{
+	width:100%;
+	height:30px;
+	background-color: white;
+	
+	
+}
+.links{
+  text-align: center;
+  vertical-align: middle;
+ 
+}
+
+.links a{
+padding:50px;
+color: black;
+
+		
+}
+
+.media{
+	height:100%;
+	height:30px;
+  background-color:white;
+  
+
+}
+
+.media img{
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  float: right;
+  padding: 5px;
+}
+
+.call img{
+  width: 80%;
+}
+
+.item{
+  width:100%;
+}
+.HR{
+  border: 0.5px dashed #a3dbec;
+}
+
+.description {
+
+  width: 100%;
+  height: 400px;
+
+}
+.test img{
+  float:  right;
+  padding-right: 20px;
+  height: 400px;
+   
+}
+.test{
+
+  height: 400px;
+}
+
+.para{
+  width: 50%;
+  padding-top: 20px;
+}
+
+.h1Welcome{
+  padding-top: 20px;
+}
+
+.lastBar{
+  background-color:  #3479be;
+  height: 35px;
+
+}
+.carousel img{
+  margin: auto;
+}
+
+.info{
+  
+  text-align:right;
+  font-size: 20px;
+  color: white;
+  padding-right: 5px;
+}
+
+.circles img{
+  padding: 20px 20px;
+ 
+}
+.circles{
+  margin: auto;
+}
+/* split screen in all*/
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  
+  
+}
+
+.left {
+  left: 0;
+  /* background-image: url("images/1.png"); */
+}
+
+.right {
+  right: 0;
+}
+
+/* login and signup */
+    
+    
+.inputs {
+    
+  display: grid;
+
+  grid-gap: 10px;
+
+  padding-top: 30px;
+
+  width: 100%;
+
+}
+
+    
+
+    
+.login button {
+    
+  padding: 10px;
+
+  margin-top: 20px;
+
+  color:black;
+
+  background: white;
+
+  border: 0px;
+
+  border-radius: 3px;
+
+  font-size: 1rem;
+
+  /* box-shadow: 0px 10px 10px -5px turquoise; */
+
+}
+
+
+form {
+
+  text-align: center;
+
+}
+
+
+.patientinputs {
+
+  border: 1px solid #40e0d0;
+  border-radius: 3px;
+  padding: 10px 0px;
+  text-indent: 10px;
+  color: #00d1b2;
+  width: 80%;
+}
+
+
+
+
+
+/*-------------------------------------------------- add doctor form------------------------------------------------------ */
+
+.docinputs 
+{
+      display: grid;
+      padding-top: 30px;
+      padding-left: 25%;
+      width: 70%;
+}
+.doctor input
+{
+  border: 1px solid blue;
+  margin: 8px 0;
+  border-radius: 3px;
+  padding: 10px 0px;
+  text-indent: 10px;
+  color:blue;
+
+}
+/*----------------------------------------------------------- doctor avilablity */
+.DocAvDiv
+{
+  width: 100%;
+  height: 200px;
+  background-color: #001133;
+  margin-top: 60px;
+  
+
+}
+.DocAvDivP
+{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: georgia;
+ color:white;
+padding-left: 30%;
+
+padding-top: 80px;
+    text-align: center;
+}
+/* --------------------------------------------------------------------------contact */
+.ContText{
+  width: 102%;
+  height: 300px;
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);;
+  margin-top: 70px;
+  margin-left: -16px;
+}
+.ContText p
+{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: georgia;
+ color:white;
+padding-left: 535px;
+padding-top:130px; 
+
+}
+.contact-img img
+{
+   
+  margin: 30px 320px;
+}
+.bottom-img img
+{
+  
+  margin: 5px 320px;
+  overflow: auto;
+}
+
+.st
+{
+  margin-left:300px;
+  font-size: 24px;
+  
+}
+.ppp
+{
+  margin-left:1000px;
+  margin-top: -150px;  
+  font-size:24px;
+}
+.stt
+{
+  margin-left:300px;
+  font-size: 24px;
+ width: 400px;
+}
+.pp{
+  margin-top: -100px;  
+  margin-left:1000px;
+  font-size:24px;
+}
+/* -------------------------------------- new login */
+
+.contact-image{
+  text-align: center;
+  
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+
+}
+.h1Login{
+
+  color: #fff;
+}
+
+
+/* After login */
+
+.topBar{
+  
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 49px;
+  background-color:  #1a75ff;
+}
+.restOfForm{
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 50vh;
+  background: rgb(62, 170, 241);  /* fallback for old browsers */
+  background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, rgb(62, 170, 241)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 20px;
+  
+}
+
+.topBar button{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  color:whitesmoke;
+
+}
+
+.topBar button:hover
+{
+  background: #fff;
+  color: navy;
+}
+
+
+#form2, #form3 {
+  display:none;
+}
+.presp{
+  font-size: 20px;
+  color: navy;
+}
+.prescrept{
+  padding-left: 40%;
+  /* width: 100px; */
+}
+.textarea{
+ 
+  color:#999;
+  font-weight:400;
+  font-size:20px;
+  font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+  background:#fff;
+  border-radius:3px;
+  line-height:2em;
+  border:none;
+  box-shadow:0px 0px 5px 1px rgba(0,0,0,0.1);
+  padding:30px;
+}
+.custom-file-upload 
+{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#form1,#form2,#form3,#form4,#form5,#form6,#form7,#Rec1,#Rec2,#Rec3,#Rec4
+{
+  display:none;
+}
+/* ---------------------------------- Admin  */
+
+#adminForm1{
+  display: none;
+ padding-top: 50px;
+}
+/*-------------------------------------------------- add doctor form------------------------------------------------------ */
+
+
+.doctor input
+{
+  border: 1px solid blue;
+  margin: 8px 0;
+  border-radius: 3px;
+  padding: 10px 0px;
+  text-indent: 10px;
+  color:blue;
+
+}
+
+input[type="time"]
+{
+  border: 1px solid blue;
+}
+.label
+{
+  min-width: 100px ;
+  font-size: 20px;
+  float: left;
+}
+
+/* ---------------------------------- Patient  */
+
+.middle{
+  text-align:center;
+  padding-bottom: 20px;
+}
+
+.twoButt{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
